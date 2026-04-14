@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #26A0E6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5%;
+}
+input[type="button"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #e00d3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5%;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #34495e;
+}
+#nicknameError, #passError, #emailError {
+    color: red;
+    font-size: 12px; 
+}
